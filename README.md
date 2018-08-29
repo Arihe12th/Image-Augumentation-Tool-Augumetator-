@@ -33,5 +33,45 @@ Applications:
         16.Resize.
         17.Crop Center.    
 
+Dependencies to Install this tool:
+Tool works with python 2.7.
+
+it is better if have a seperate environment for python(use anaconda or virtualenv)
+reference links for setting up environment:
+conda:
+https://medium.freecodecamp.org/why-you-need-python-environments-and-how-to-manage-them-with-conda-85f155f4353c
+
+virtualenv:
+https://virtualenv.pypa.io/en/stable/userguide/
+
+Inside this environment you can install all dependency libraries:
+use pip to install libraries inside environment.
+
+
+pip install -U pip
+pip install -U matplotlib
+pip install -U imgaug
+pip install -U numpy
+pip install -U cv2
+pip install -U qt4
+pip install -U imutils
+pip install -U shutil
+pip install -U elementree
+
+running tool:
+download the source code and run it in the environment where you set all dependencies the tool starts working 
+
+
+
+
+NOTE:
+1.You can’t generate xml for Horizontal flip , vertical flip,rotate 90 degree,crop centre because the change in image is very large the annotated bound box don’t fit objects objects go out of bounding box.
+
+2.Other augmentation are configure to fit bounding box after augmenting so xml can be generated in PASCAL VOC format so you can make use of it.
+
+3.There are few things have to fixed in terms of GUI and options but tool is working fine you can check for fixes and upgrade predioacally.
+
+
+
 
 
