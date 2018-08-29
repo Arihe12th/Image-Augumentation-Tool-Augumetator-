@@ -59,7 +59,7 @@ pip install -U shutil
 pip install -U elementree
 
 running tool:
-download the source code and run it in the environment where you set all dependencies the tool starts working 
+download the source code file(Augumentsource.py) and run it in the environment where you set all dependencies the tool starts working 
 
 
 
