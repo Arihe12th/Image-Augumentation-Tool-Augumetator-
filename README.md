@@ -24,13 +24,13 @@ Applications:
         7.Gamma.
         8.Saturation.
         9.Rotate to angle.
-                10.Rotate to Bounding box.
+        10.Rotate to Bounding box.
         11.Transpose.
         12.Salt and pepper.
         13.Shading.
         14.Shear right.
         15.Shear left.
-        16. Resize.
+        16.Resize.
         17.Crop Center.    
 
 
